@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    delete confirmation
+{% endblock title %}
+    
+
+{% block content %}
+    <h1>Delete</h1>
+    <form action="" method="post">
+        <p>
+            are you sure you want to delete "{{ article.title }}"
+        </p>
+        <button type="submit" class="btn btn-danger ml-2">Confirm</button>
+    </form>
+{% endblock content %}
+    
